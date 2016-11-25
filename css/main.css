@@ -1,0 +1,54 @@
+p {
+    width: 20px;
+    display: inline-block;
+    margin: 2px;
+    border: 1px solid red;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+}
+
+span {
+    width: 90%;
+    height: 90%;
+    display: inline-block;
+}
+
+.loto-col {
+    width: 900px;
+    text-align: center;
+    margin-left: 10px;
+    clear: both;
+}
+
+.loto-col:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.num {
+    float: left;
+}
+
+.num-cont {
+    width: 78px;
+    text-align: center;
+    float: left;
+    margin: 15px 5px;
+    border: 1px solid red;
+}
+
+.header {
+    background-color: red;
+    color: #fff;
+}
+
+.span-selected {
+    border-radius: 50%;
+    background: black;
+    color: red;
+}
